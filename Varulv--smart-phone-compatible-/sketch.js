@@ -19,7 +19,6 @@ var listItems = [];
 var database;
 
 function setup() {
-
     var config = {
         apiKey: "AIzaSyAGJdCvYXSudM_OZQd2N0bgDDkIbzuXZxs",
         authDomain: "varulv-af491.firebaseapp.com",
@@ -32,8 +31,6 @@ function setup() {
     database = firebase.database();
     
     // Start loading the data
-    loadFirebase();
-    
     
     tilmelding();
 }
