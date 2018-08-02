@@ -3,7 +3,6 @@
 // vimeo.com/kimhg
 // 17/05-2018
 
-
 //Stores starting date in milliseconds
 var startingDate = Date.parse("September 01, 2018");
 
@@ -36,7 +35,7 @@ function setup() {
     loadFirebase();
     
     
-    //tilmelding();
+    tilmelding();
 }
 
 //Gameplay
